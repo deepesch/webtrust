@@ -1,0 +1,379 @@
+Dane-4:SNA vhying$ python experiments.py
+performing MOI...
+Fold 1:
+MOI model time for one fold:  5.77587485313
+Predictions: avg 0.859409
+Labels: avg 0.829128
+Accuracy: 0.909156
+False positive rate: 0.620253
+Fold 2:
+MOI model time for one fold:  5.71773099899
+Predictions: avg 0.863014
+Labels: avg 0.832733
+Accuracy: 0.917808
+False positive rate: 0.581897
+Fold 3:
+MOI model time for one fold:  5.82322502136
+Predictions: avg 0.859409
+Labels: avg 0.822639
+Accuracy: 0.915285
+False positive rate: 0.581301
+Fold 4:
+MOI model time for one fold:  5.33445906639
+Predictions: avg 0.875991
+Labels: avg 0.833453
+Accuracy: 0.911680
+False positive rate: 0.658009
+Fold 5:
+MOI model time for one fold:  5.5802321434
+Predictions: avg 0.868970
+Labels: avg 0.851692
+Accuracy: 0.925126
+False positive rate: 0.563107
+MOI results:
+Accuracy: average 0.915811 with standard error 0.002469
+False positive rate: average 0.600913 with standard error 0.015244
+Model running time: average 5.646304 with standard error 0.078690
+
+performing HOC...
+Fold 1:
+Calculating feature matrices...
+computing feature products...
+Predictions: avg 0.382841
+Labels: avg 0.837058
+Accuracy: 0.720981
+False positive rate: 0.318584
+HOC feature extraction time for one fold:  20.6678879261
+Fold 2:
+Calculating feature matrices...
+computing feature products...
+Predictions: avg 0.443403
+Labels: avg 0.845710
+Accuracy: 0.746936
+False positive rate: 0.336449
+HOC feature extraction time for one fold:  21.9364528656
+Fold 3:
+Calculating feature matrices...
+computing feature products...
+Predictions: avg 0.379957
+Labels: avg 0.828407
+Accuracy: 0.726748
+False positive rate: 0.285714
+HOC feature extraction time for one fold:  20.7531530857
+Fold 4:
+Calculating feature matrices...
+computing feature products...
+Predictions: avg 0.427541
+Labels: avg 0.829849
+Accuracy: 0.757030
+False positive rate: 0.245763
+HOC feature extraction time for one fold:  20.698666811
+Fold 5:
+Calculating feature matrices...
+computing feature products...
+Predictions: avg 0.537130
+Labels: avg 0.851478
+Accuracy: 0.798125
+False positive rate: 0.300971
+HOC feature extraction time for one fold:  21.1925020218
+Fold 6:
+Calculating feature matrices...
+computing feature products...
+Predictions: avg 0.460707
+Labels: avg 0.837058
+Accuracy: 0.755588
+False positive rate: 0.345133
+HOC feature extraction time for one fold:  21.3582010269
+Fold 7:
+Calculating feature matrices...
+computing feature products...
+Predictions: avg 0.420332
+Labels: avg 0.818313
+Accuracy: 0.756309
+False positive rate: 0.246032
+HOC feature extraction time for one fold:  21.5492119789
+Fold 8:
+Calculating feature matrices...
+computing feature products...
+Predictions: avg 0.498198
+Labels: avg 0.865898
+Accuracy: 0.775775
+False positive rate: 0.301075
+HOC feature extraction time for one fold:  21.2725849152
+Fold 9:
+Calculating feature matrices...
+computing feature products...
+Predictions: avg 0.561644
+Labels: avg 0.822639
+Accuracy: 0.814708
+False positive rate: 0.308943
+HOC feature extraction time for one fold:  21.8603360653
+Fold 10:
+Calculating feature matrices...
+computing feature products...
+Predictions: avg 0.446441
+Labels: avg 0.803019
+Accuracy: 0.778577
+False positive rate: 0.218978
+HOC feature extraction time for one fold:  21.368448019
+HOC results:
+Accuracy: average 0.763078 with standard error 0.008824
+False positive rate: average 0.290764 with standard error 0.012475
+Model running time: average 21.265744 with standard error 0.136015
+
+performing ALS...
+got folds
+Fold 1
+(7605, 7605)
+Predictions: avg 0.825523
+Labels: avg 0.836337
+Accuracy: 0.993151
+False positive rate: 0.008811
+Fold 2
+(7605, 7605)
+Predictions: avg 0.834174
+Labels: avg 0.834174
+Accuracy: 0.992790
+False positive rate: 0.043478
+Fold 3
+(7605, 7605)
+Predictions: avg 0.819034
+Labels: avg 0.827686
+Accuracy: 0.993511
+False positive rate: 0.012552
+Fold 4
+(7605, 7605)
+Predictions: avg 0.847152
+Labels: avg 0.852920
+Accuracy: 0.994232
+False positive rate: 0.019608
+Fold 5
+(7605, 7605)
+Predictions: avg 0.829128
+Labels: avg 0.833453
+Accuracy: 0.994953
+False positive rate: 0.017316
+Fold 6
+(7605, 7605)
+Predictions: avg 0.829128
+Labels: avg 0.833453
+Accuracy: 0.994232
+False positive rate: 0.021645
+Fold 7
+(7605, 7605)
+Predictions: avg 0.814708
+Labels: avg 0.816871
+Accuracy: 0.996756
+False positive rate: 0.011811
+Fold 8
+(7605, 7605)
+Predictions: avg 0.839942
+Labels: avg 0.842105
+Accuracy: 0.992430
+False positive rate: 0.041096
+Fold 9
+(7605, 7605)
+Predictions: avg 0.826244
+Labels: avg 0.832733
+Accuracy: 0.993151
+False positive rate: 0.021552
+Fold 10
+(7605, 7605)
+Predictions: avg 0.824587
+Labels: avg 0.829619
+Accuracy: 0.991014
+False positive rate: 0.037975
+ALS results:
+Accuracy: average 0.993622 with standard error 0.000466
+False positive rate: average 0.023584 with standard error 0.003809
+Model running time: average 17.296268 with standard error 0.063864
+
+performing SVP...
+got folds
+Fold 1
+projection
+svd
+completed iteration  1
+projection
+svd
+completed iteration  2
+projection
+svd
+completed iteration  3
+projection
+svd
+completed iteration  4
+(7605, 7605)
+Predictions: avg 0.841384
+Labels: avg 0.838500
+Accuracy: 0.995674
+False positive rate: 0.035714
+Fold 2
+projection
+svd
+completed iteration  1
+projection
+svd
+completed iteration  2
+projection
+svd
+completed iteration  3
+projection
+svd
+completed iteration  4
+(7605, 7605)
+Predictions: avg 0.831291
+Labels: avg 0.829849
+Accuracy: 0.996395
+False positive rate: 0.025424
+Fold 3
+projection
+svd
+completed iteration  1
+projection
+svd
+completed iteration  2
+projection
+svd
+completed iteration  3
+projection
+svd
+completed iteration  4
+(7605, 7605)
+Predictions: avg 0.836337
+Labels: avg 0.832733
+Accuracy: 0.996756
+False positive rate: 0.030172
+Fold 4
+projection
+svd
+completed iteration  1
+projection
+svd
+completed iteration  2
+projection
+svd
+completed iteration  3
+projection
+svd
+completed iteration  4
+(7605, 7605)
+Predictions: avg 0.825523
+Labels: avg 0.821918
+Accuracy: 0.995314
+False positive rate: 0.036437
+Fold 5
+projection
+svd
+completed iteration  1
+projection
+svd
+completed iteration  2
+projection
+svd
+completed iteration  3
+projection
+svd
+completed iteration  4
+(7605, 7605)
+Predictions: avg 0.850757
+Labels: avg 0.848594
+Accuracy: 0.998198
+False positive rate: 0.019048
+Fold 6
+projection
+svd
+completed iteration  1
+projection
+svd
+completed iteration  2
+projection
+svd
+completed iteration  3
+projection
+svd
+completed iteration  4
+(7605, 7605)
+Predictions: avg 0.842105
+Labels: avg 0.841384
+Accuracy: 0.998919
+False positive rate: 0.009091
+Fold 7
+projection
+svd
+completed iteration  1
+projection
+svd
+completed iteration  2
+projection
+svd
+completed iteration  3
+projection
+svd
+completed iteration  4
+(7605, 7605)
+Predictions: avg 0.832012
+Labels: avg 0.830570
+Accuracy: 0.997116
+False positive rate: 0.021277
+Fold 8
+projection
+svd
+completed iteration  1
+projection
+svd
+completed iteration  2
+projection
+svd
+completed iteration  3
+projection
+svd
+completed iteration  4
+(7605, 7605)
+Predictions: avg 0.836337
+Labels: avg 0.834174
+Accuracy: 0.997477
+False positive rate: 0.021739
+Fold 9
+projection
+svd
+completed iteration  1
+projection
+svd
+completed iteration  2
+projection
+svd
+completed iteration  3
+projection
+svd
+completed iteration  4
+projection
+svd
+completed iteration  5
+(7605, 7605)
+Predictions: avg 0.732516
+Labels: avg 0.826244
+Accuracy: 0.871665
+False positive rate: 0.468880
+Fold 10
+projection
+svd
+completed iteration  1
+projection
+svd
+completed iteration  2
+projection
+svd
+completed iteration  3
+projection
+svd
+completed iteration  4
+(7605, 7605)
+Predictions: avg 0.838246
+Labels: avg 0.835370
+Accuracy: 0.997124
+False positive rate: 0.026201
+SVP results:
+Accuracy: average 0.984464 with standard error 0.011894
+False positive rate: average 0.069398 with standard error 0.042179
+Model running time: average 975.208795 with standard error 29.387908

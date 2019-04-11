@@ -1,0 +1,143 @@
+TRIAD COUNT
+Epinions:
+Count of Triad t0: 58732
+Count of Triad t1: 396548
+Count of Triad t2: 451711
+Count of Triad t3: 4003085
+Fraction of Triad t0: 0.0120
+Fraction of Triad t1: 0.0808
+Fraction of Triad t2: 0.0920
+Fraction of Triad t3: 0.8153
+Fraction of Positive Edges: 0.8324
+Fraction of Negative Edges: 0.1676
+
+Slashdot:
+Count of Triad t0: 12481
+Count of Triad t1: 80581
+Count of Triad t2: 67695
+Count of Triad t3: 418808
+Fraction of Triad t0: 0.0215
+Fraction of Triad t1: 0.1390
+Fraction of Triad t2: 0.1168
+Fraction of Triad t3: 0.7226
+Fraction of Positive Edges: 0.7626
+Fraction of Negative Edges: 0.2374
+
+Wiki RFA graph:
+Count of Triad t0: 2077
+Count of Triad t1: 19263
+Count of Triad t2: 74594
+Count of Triad t3: 243597
+Fraction of Triad t0: 0.0061
+Fraction of Triad t1: 0.0567
+Fraction of Triad t2: 0.2197
+Fraction of Triad t3: 0.7175
+Fraction of Positive Edges: 0.8373
+Fraction of Negative Edges: 0.1627
+
+BTC Alpha:
+Count of Triad t0: 166
+Count of Triad t1: 1904
+Count of Triad t2: 3247
+Count of Triad t3: 16836
+Fraction of Triad t0: 0.0075
+Fraction of Triad t1: 0.0859
+Fraction of Triad t2: 0.1466
+Fraction of Triad t3: 0.7600
+Fraction of Positive Edges: 0.9034
+Fraction of Negative Edges: 0.0966
+
+BTC OTC:
+Count of Triad t0: 348
+Count of Triad t1: 5691
+Count of Triad t2: 4434
+Count of Triad t3: 23020
+Fraction of Triad t0: 0.0104
+Fraction of Triad t1: 0.1699
+Fraction of Triad t2: 0.1324
+Fraction of Triad t3: 0.6873
+Fraction of Positive Edges: 0.8492
+Fraction of Negative Edges: 0.1508
+
+
+BALANCE
+Epinions graph:
+Unbalanced Triads = 510443, Total Triads = 4910076
+Slashdot graph:
+Unbalanced Triads = 80176, Total Triads = 579565
+Wiki RFA graph:
+Unbalanced Triads = 76671, Total Triads = 339531
+BTC Alpha graph:
+Unbalanced Triads = 3413, Total Triads = 22153
+BTC OTC graph:
+Unbalanced Triads = 4782, Total Triads = 33493
+
+
+STATUS
+BTC Alpha graph:
+Count of Triad t0: 44946
+Count of Triad t1: 3763
+Count of Triad t2: 4320
+Count of Triad t3: 771
+Count of Triad t4: 3547
+Count of Triad t5: 1033
+Count of Triad t6: 403
+Count of Triad t7: 871
+Count of Triad t8: 4276
+Count of Triad t9: 573
+Count of Triad t10: 213
+Count of Triad t11: 44
+Count of Triad t12: 1031
+Count of Triad t13: 485
+Count of Triad t14: 170
+Count of Triad t15: 13
+Fraction of Triad t0: 0.6763
+Fraction of Triad t1: 0.0566
+Fraction of Triad t2: 0.0650
+Fraction of Triad t3: 0.0116
+Fraction of Triad t4: 0.0534
+Fraction of Triad t5: 0.0155
+Fraction of Triad t6: 0.0061
+Fraction of Triad t7: 0.0131
+Fraction of Triad t8: 0.0643
+Fraction of Triad t9: 0.0086
+Fraction of Triad t10: 0.0032
+Fraction of Triad t11: 0.0007
+Fraction of Triad t12: 0.0155
+Fraction of Triad t13: 0.0073
+Fraction of Triad t14: 0.0026
+Fraction of Triad t15: 0.0002
+
+BTC OTC graph:
+Count of Triad t0: 61185
+Count of Triad t1: 6018
+Count of Triad t2: 5998
+Count of Triad t3: 1592
+Count of Triad t4: 5307
+Count of Triad t5: 2124
+Count of Triad t6: 2316
+Count of Triad t7: 1988
+Count of Triad t8: 5961
+Count of Triad t9: 1039
+Count of Triad t10: 350
+Count of Triad t11: 1476
+Count of Triad t12: 2340
+Count of Triad t13: 2554
+Count of Triad t14: 162
+Count of Triad t15: 69
+Fraction of Triad t0: 0.6089
+Fraction of Triad t1: 0.0599
+Fraction of Triad t2: 0.0597
+Fraction of Triad t3: 0.0158
+Fraction of Triad t4: 0.0528
+Fraction of Triad t5: 0.0211
+Fraction of Triad t6: 0.0230
+Fraction of Triad t7: 0.0198
+Fraction of Triad t8: 0.0593
+Fraction of Triad t9: 0.0103
+Fraction of Triad t10: 0.0035
+Fraction of Triad t11: 0.0147
+Fraction of Triad t12: 0.0233
+Fraction of Triad t13: 0.0254
+Fraction of Triad t14: 0.0016
+Fraction of Triad t15: 0.0007

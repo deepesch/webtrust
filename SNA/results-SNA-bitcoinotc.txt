@@ -1,0 +1,406 @@
+Dane-4:SNA vhying$ python experiments.py
+performing MOI...
+Fold 1:
+MOI model time for one fold:  13.552489996
+Predictions: avg 0.774728
+Labels: avg 0.722196
+Accuracy: 0.910317
+False positive rate: 0.417376
+Fold 2:
+MOI model time for one fold:  14.1718680859
+Predictions: avg 0.742073
+Labels: avg 0.724562
+Accuracy: 0.906058
+False positive rate: 0.372852
+Fold 3:
+MOI model time for one fold:  14.3160290718
+Predictions: avg 0.752958
+Labels: avg 0.724562
+Accuracy: 0.907714
+False positive rate: 0.386598
+Fold 4:
+MOI model time for one fold:  14.1594519615
+Predictions: avg 0.766682
+Labels: avg 0.732608
+Accuracy: 0.910080
+False positive rate: 0.400000
+Fold 5:
+MOI model time for one fold:  13.8515219688
+Predictions: avg 0.770104
+Labels: avg 0.723273
+Accuracy: 0.908940
+False positive rate: 0.413675
+MOI results:
+Accuracy: average 0.908622 with standard error 0.000707
+False positive rate: average 0.398100 with standard error 0.007450
+Model running time: average 14.010272 with standard error 0.122739
+
+performing HOC...
+Fold 1:
+Calculating feature matrices...
+computing feature products...
+Predictions: avg 0.398959
+Labels: avg 0.712257
+Accuracy: 0.775201
+False positive rate: 0.236842
+HOC feature extraction time for one fold:  32.6034901142
+Fold 2:
+Calculating feature matrices...
+computing feature products...
+Predictions: avg 0.428301
+Labels: avg 0.746332
+Accuracy: 0.773781
+False positive rate: 0.264925
+HOC feature extraction time for one fold:  33.5323281288
+Fold 3:
+Calculating feature matrices...
+computing feature products...
+Predictions: avg 0.405584
+Labels: avg 0.720776
+Accuracy: 0.771415
+False positive rate: 0.254237
+HOC feature extraction time for one fold:  34.4685709476
+Fold 4:
+Calculating feature matrices...
+computing feature products...
+Predictions: avg 0.398012
+Labels: avg 0.734027
+Accuracy: 0.765736
+False positive rate: 0.249110
+HOC feature extraction time for one fold:  33.8054590225
+Fold 5:
+Calculating feature matrices...
+computing feature products...
+Predictions: avg 0.372456
+Labels: avg 0.745386
+Accuracy: 0.752011
+False positive rate: 0.241636
+HOC feature extraction time for one fold:  35.9509019852
+Fold 6:
+Calculating feature matrices...
+computing feature products...
+Predictions: avg 0.330809
+Labels: avg 0.710364
+Accuracy: 0.753431
+False positive rate: 0.196078
+HOC feature extraction time for one fold:  33.3368740082
+Fold 7:
+Calculating feature matrices...
+computing feature products...
+Predictions: avg 0.375296
+Labels: avg 0.717937
+Accuracy: 0.765263
+False positive rate: 0.224832
+HOC feature extraction time for one fold:  33.594481945
+Fold 8:
+Calculating feature matrices...
+computing feature products...
+Predictions: avg 0.413157
+Labels: avg 0.714150
+Accuracy: 0.783247
+False positive rate: 0.231788
+HOC feature extraction time for one fold:  39.6170380116
+Fold 9:
+Calculating feature matrices...
+computing feature products...
+Predictions: avg 0.450071
+Labels: avg 0.721723
+Accuracy: 0.792239
+False positive rate: 0.258503
+HOC feature extraction time for one fold:  52.379513979
+Fold 10:
+Calculating feature matrices...
+computing feature products...
+Predictions: avg 0.434515
+Labels: avg 0.731442
+Accuracy: 0.778723
+False positive rate: 0.271127
+HOC feature extraction time for one fold:  46.6404130459
+HOC results:
+Accuracy: average 0.771105 with standard error 0.003763
+False positive rate: average 0.242908 with standard error 0.006613
+Model running time: average 37.592907 with standard error 2.017138
+
+performing ALS...
+got folds
+Fold 1
+(6006, 6006)
+Predictions: avg 0.703265
+Labels: avg 0.706105
+Accuracy: 0.991481
+False positive rate: 0.024155
+Fold 2
+(6006, 6006)
+Predictions: avg 0.702792
+Labels: avg 0.714624
+Accuracy: 0.988878
+False positive rate: 0.018242
+Fold 3
+(6006, 6006)
+Predictions: avg 0.734027
+Labels: avg 0.739707
+Accuracy: 0.991008
+False positive rate: 0.023636
+Fold 4
+(6006, 6006)
+Predictions: avg 0.716990
+Labels: avg 0.723142
+Accuracy: 0.989352
+False positive rate: 0.027350
+Fold 5
+(6006, 6006)
+Predictions: avg 0.736394
+Labels: avg 0.740180
+Accuracy: 0.990062
+False positive rate: 0.030965
+Fold 6
+(6006, 6006)
+Predictions: avg 0.722196
+Labels: avg 0.725509
+Accuracy: 0.990771
+False positive rate: 0.027586
+Fold 7
+(6006, 6006)
+Predictions: avg 0.735447
+Labels: avg 0.743966
+Accuracy: 0.990062
+False positive rate: 0.022181
+Fold 8
+(6006, 6006)
+Predictions: avg 0.706578
+Labels: avg 0.713677
+Accuracy: 0.989825
+False positive rate: 0.023140
+Fold 9
+(6006, 6006)
+Predictions: avg 0.710364
+Labels: avg 0.720776
+Accuracy: 0.989115
+False positive rate: 0.020339
+Fold 10
+(6006, 6006)
+Predictions: avg 0.723877
+Labels: avg 0.726714
+Accuracy: 0.990071
+False positive rate: 0.031142
+ALS results:
+Accuracy: average 0.990062 with standard error 0.000250
+False positive rate: average 0.024874 with standard error 0.001291
+Model running time: average 16.372131 with standard error 0.111108
+
+performing SVP...
+got folds
+Fold 1
+projection
+svd
+completed iteration  1
+projection
+svd
+completed iteration  2
+projection
+svd
+completed iteration  3
+projection
+svd
+completed iteration  4
+projection
+svd
+completed iteration  5
+(6006, 6006)
+Predictions: avg 0.689068
+Labels: avg 0.737814
+Accuracy: 0.870563
+False positive rate: 0.400722
+Fold 2
+projection
+svd
+completed iteration  1
+projection
+svd
+completed iteration  2
+projection
+svd
+completed iteration  3
+projection
+svd
+completed iteration  4
+projection
+svd
+completed iteration  5
+(6006, 6006)
+Predictions: avg 0.704212
+Labels: avg 0.738287
+Accuracy: 0.894936
+False positive rate: 0.336347
+Fold 3
+projection
+svd
+completed iteration  1
+projection
+svd
+completed iteration  2
+projection
+svd
+completed iteration  3
+projection
+svd
+completed iteration  4
+projection
+svd
+completed iteration  5
+(6006, 6006)
+Predictions: avg 0.692854
+Labels: avg 0.723616
+Accuracy: 0.883341
+False positive rate: 0.366438
+Fold 4
+projection
+svd
+completed iteration  1
+projection
+svd
+completed iteration  2
+projection
+svd
+completed iteration  3
+projection
+svd
+completed iteration  4
+projection
+svd
+completed iteration  5
+(6006, 6006)
+Predictions: avg 0.719356
+Labels: avg 0.716517
+Accuracy: 0.997634
+False positive rate: 0.013356
+Fold 5
+projection
+svd
+completed iteration  1
+projection
+svd
+completed iteration  2
+projection
+svd
+completed iteration  3
+projection
+svd
+completed iteration  4
+projection
+svd
+completed iteration  5
+(6006, 6006)
+Predictions: avg 0.723142
+Labels: avg 0.717937
+Accuracy: 0.997397
+False positive rate: 0.018456
+Fold 6
+projection
+svd
+completed iteration  1
+projection
+svd
+completed iteration  2
+projection
+svd
+completed iteration  3
+projection
+svd
+completed iteration  4
+projection
+svd
+completed iteration  5
+(6006, 6006)
+Predictions: avg 0.717463
+Labels: avg 0.715097
+Accuracy: 0.997397
+False positive rate: 0.013289
+Fold 7
+projection
+svd
+completed iteration  1
+projection
+svd
+completed iteration  2
+projection
+svd
+completed iteration  3
+projection
+svd
+completed iteration  4
+projection
+svd
+completed iteration  5
+(6006, 6006)
+Predictions: avg 0.705632
+Labels: avg 0.729768
+Accuracy: 0.877189
+False positive rate: 0.409807
+Fold 8
+projection
+svd
+completed iteration  1
+projection
+svd
+completed iteration  2
+projection
+svd
+completed iteration  3
+projection
+svd
+completed iteration  4
+projection
+svd
+completed iteration  5
+(6006, 6006)
+Predictions: avg 0.646947
+Labels: avg 0.719356
+Accuracy: 0.873876
+False positive rate: 0.320405
+Fold 9
+projection
+svd
+completed iteration  1
+projection
+svd
+completed iteration  2
+projection
+svd
+completed iteration  3
+projection
+svd
+completed iteration  4
+projection
+svd
+completed iteration  5
+(6006, 6006)
+Predictions: avg 0.652153
+Labels: avg 0.719830
+Accuracy: 0.874823
+False positive rate: 0.326014
+Fold 10
+projection
+svd
+completed iteration  1
+projection
+svd
+completed iteration  2
+projection
+svd
+completed iteration  3
+projection
+svd
+completed iteration  4
+projection
+svd
+completed iteration  5
+(6006, 6006)
+Predictions: avg 0.737116
+Labels: avg 0.736170
+Accuracy: 0.997636
+False positive rate: 0.010753
+SVP results:
+Accuracy: average 0.926479 with standard error 0.018448
+False positive rate: average 0.221559 with standard error 0.054295
+Model running time: average 575.122834 with standard error 3.695655
